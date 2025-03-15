@@ -264,10 +264,11 @@ def train_and_evaluate(x_train, x_test, y_train, y_test, epochs=1, optimizer="RM
     plt.show()
 
     # 2) Save the plot to the results directory
-    file_name = f"{epochs} epochs_batch:{batch}_optimizer:{optimizer}"
+    file_name = f"{epochs} epochs_batch-{batch}_optimizer-{optimizer}"
     plot_path = os.path.join(results_dir, f"{file_name}.png")
+    #plot_path = results_dir / f"{file_name}.png"
     fig.savefig(plot_path)
-    plt.close(fig)  # Close figure so it doesn't pop up repeatedly in the notebook
+    plt.close(fig)
 
     model_save_path = os.path.join(results_dir, f"model_{file_name}.h5")
     model.save(model_save_path)
