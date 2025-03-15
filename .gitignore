@@ -1,0 +1,9 @@
+# Ignore raw datasets
+data/
+
+# Ignore virtual environment and dependency files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
