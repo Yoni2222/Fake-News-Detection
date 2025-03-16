@@ -12,7 +12,7 @@ Fake news detection has become an important challenge in today's digital landsca
 
 Clone the repository:
 ```sh
-    git clone https://github.com/your-username/DL_Project.git
+    git clone https://github.com/Yoni2222/Fake-News-Detection.git
 ```
 
 ## How to Run the Project
