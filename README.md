@@ -15,38 +15,38 @@ Clone the repository:
     git clone https://github.com/your-username/DL_Project.git
 ```
 
-## How to Run the Project:
-    Run Exploratory Data Analysis (EDA):
+## How to Run the Project
+Run Exploratory Data Analysis (EDA):
 ```sh 
-        python scripts/eda.py
+python scripts/eda.py
 ```
 Preprocess the data:
 ```sh
-    python src/data/preprocessing_svm.py
+python src/data/preprocessing_svm.py
 ```
 ```sh
-    python src/data/preprocessing_lstm.py
+python src/data/preprocessing_lstm.py
 ```
 Train the Models:
 ```sh
-    python scripts/train_svm.py
+python scripts/train_svm.py
 ```
 ```sh    
-    python scripts/train_lstm.py
+python scripts/train_lstm.py
 ```
 
 ## Dataset Used: 
 WELFake Dataset (https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification/data)
 
 ## Results:
-    SVM (Kernel = 'rbf') achieved accuracy of 74%
-    Best model of LSTM achieved accuracy of 97.5%
+SVM (Kernel = 'rbf') achieved accuracy of 74%
+**Best model of LSTM achieved accuracy of 97.5%**
     
 ## Technologies Used
-    Python
-    Scikit-learn (for ML models)
-    TensorFlow/Keras (for Deep Learning)
-    Pandas, NumPy
-    Matplotlib
+Python
+Scikit-learn (for ML models)
+TensorFlow/Keras (for Deep Learning)
+Pandas, NumPy
+Matplotlib
 
-**This repository includes a detailed academic-style summary of the project. The document, "Fake News Detection.docx", provides an in-depth explanation of the problem, methodologies (SVM and LSTM models), experimental setup, results, conclusions and more.**
+**This repository includes a detailed academic-style summary of the project. The document "Fake News Detection.docx", provides an in-depth explanation of the problem, methodologies (SVM and LSTM models), experimental setup, results, conclusions and more.**
