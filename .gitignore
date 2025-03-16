@@ -1,6 +1,7 @@
 # Ignore raw datasets
 /data/
-
+src/data/preprocessed_data.npz
+src/data/embeddings_data.npz
 # Ignore virtual environment and dependency files
 venv/
 __pycache__/
