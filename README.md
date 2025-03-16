@@ -39,8 +39,8 @@ python scripts/train_lstm.py
 WELFake Dataset (https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification/data)
 
 ## Results:
-SVM (Kernel = 'rbf') achieved accuracy of 74%
-**Best model of LSTM achieved accuracy of 97.5%**
+- SVM (Kernel = 'rbf') achieved accuracy of 74%.
+- **Best model of LSTM achieved accuracy of 97.5%**
     
 ## Technologies Used
 Python
