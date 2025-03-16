@@ -1,5 +1,5 @@
 # Ignore raw datasets
-data/
+/data/
 
 # Ignore virtual environment and dependency files
 venv/
