@@ -43,10 +43,10 @@ WELFake Dataset (https://www.kaggle.com/datasets/saurabhshahane/fake-news-classi
 - **Best model of LSTM achieved accuracy of 97.5%**
     
 ## Technologies Used
-Python
-Scikit-learn (for ML models)
-TensorFlow/Keras (for Deep Learning)
-Pandas, NumPy
-Matplotlib
+- Python
+- Scikit-learn (for ML models)
+- TensorFlow/Keras (for Deep Learning)
+- Pandas, NumPy
+- Matplotlib
 
 **This repository includes a detailed academic-style summary of the project. The document "Fake News Detection.docx", provides an in-depth explanation of the problem, methodologies (SVM and LSTM models), experimental setup, results, conclusions and more.**
